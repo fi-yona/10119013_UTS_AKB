@@ -1,4 +1,4 @@
-package com.example.a10119013_uts_akb.ui.home;
+package com.example.a10119013_uts_akb.ui.Profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,18 +10,23 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.a10119013_uts_akb.databinding.FragmentHomeBinding;
+import com.example.a10119013_uts_akb.databinding.FragmentProfileBinding;
 
-public class HomeFragment extends Fragment {
+//nim                   = 10119013
+//nama                  = Fiona Avila Putri
+//kelas                 = IF-1
+//tanggal pengerjaan    = 05-06-2022
 
-    private FragmentHomeBinding binding;
+public class ProfileFragment extends Fragment {
+
+    private FragmentProfileBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        ProfileViewModel homeViewModel =
+                new ViewModelProvider(this).get(ProfileViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentProfileBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;

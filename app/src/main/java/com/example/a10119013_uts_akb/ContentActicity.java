@@ -16,6 +16,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.a10119013_uts_akb.databinding.ActivityContentActicityBinding;
 
+//nim                   = 10119013
+//nama                  = Fiona Avila Putri
+//kelas                 = IF-1
+//tanggal pengerjaan    = 05-06-2022
+
 public class ContentActicity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -29,19 +34,19 @@ public class ContentActicity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarContentActicity.toolbar);
-        binding.appBarContentActicity.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        //binding.appBarContentActicity.fab.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        //.setAction("Action", null).show();
+            //}
+        //});
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_profile, R.id.nav_daftarcatatanharian, R.id.nav_informasiaplikasi)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_acticity);

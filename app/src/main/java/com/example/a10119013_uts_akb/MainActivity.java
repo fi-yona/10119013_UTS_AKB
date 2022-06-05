@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+//nim                   = 10119013
+//nama                  = Fiona Avila Putri
+//kelas                 = IF-1
+//tanggal pengerjaan    = 05-06-2022
+
 public class MainActivity extends AppCompatActivity {
 
     private Button button_mulai;

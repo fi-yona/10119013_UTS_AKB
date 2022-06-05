@@ -19,7 +19,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.10119013_UTS_AKB.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.10119013_UTS_AKB.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"
+        color="#92E3A9"
+        />
 
-    <style name="Theme.10119013_UTS_AKB.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.10119013_UTS_AKB.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"
+        color="#92E3A9"
+        />
 </resources>
